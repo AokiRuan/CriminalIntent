@@ -45,7 +45,6 @@ dependencies {
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
@@ -58,6 +57,7 @@ dependencies {
     implementation(libs.androidx.room.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.material)
     annotationProcessor(libs.androidx.room.compiler)
     ksp(libs.androidx.room.compiler)
     testImplementation(libs.junit)
