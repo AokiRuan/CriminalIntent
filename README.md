@@ -1,4 +1,4 @@
-This app is a sample project for practice, which follows an MVVM architecture and consists of a single Activity and two Fragments.
+This app is a sample project for practice from 《Android Programming: The Big Nerd Ranch Guide》, which follows an MVVM architecture and consists of a single Activity and two Fragments.
 
 The first Fragment displays a list of crimes. Users can browse through the list and tap on an item to navigate to the second Fragment, which shows the details of the selected crime.
 Users can add new crimes by specifying a title and a date. The data is stored persistently using the Room library, which utilizes SQLite as the underlying database.
